@@ -1,0 +1,438 @@
+[kvm]
+dsn = qemu:///system
+# Specify a comma-separated list of available machines to be used. For each
+# specified ID you have to define a dedicated section containing the details
+# on the respective machine. (E.g. cuckoo1,cuckoo2,cuckoo3)
+# machines = cuckoo1
+machines = win7_101, win7_102, win7_103, win7_104, win7_105,win7_106,win7_107,win7_108,win7_109,win7_110,win7_111,win7_112,win7_113,win7_114,win7_115,win7_116,win7_117,win7_118,win7_119,win7_120,win7_121,win7_122,win7_123,win7_124,win7_125,win7_126,win7_127,win7_128,win7_129,win7_130,win7_131, win7_132, win7_001,win7_002,win7_003,win7_004,win7_005,win7_006,win7_007,winxp_008,winxp_009,winxp_010,winxp_011,winxp_012,win7_32_20,win2003_21,ubuntu_22,ubuntu_23,centos32_24,centos64_25,debian_26,kylin_27,macos_28,winxp_29,winxp_30,win10_31,win7_013,win7_014,win7_015,win7_016
+
+# Specify the name of the default network interface that will be used
+# when dumping network traffic with tcpdump.
+# Example (virbr0 is the interface name):
+# interface = virbr0
+interface = virbr0
+
+
+[win7_101]
+label = win7_101
+platform = windows
+ip = 192.168.122.101
+snapshot = Snapshot_ori_101
+tags = Windows7_64,w101,cuckoo1
+
+[win7_102]
+label = win7_102
+platform = windows
+ip = 192.168.122.102
+snapshot = Snapshot_ori_102
+tags = Windows7_64,w102,cuckoo1
+
+[win7_103]
+label = win7_103
+platform = windows
+ip = 192.168.122.103
+snapshot = Snapshot_ori_103
+tags = Windows7_64,w103,cuckoo1
+
+[win7_104]
+label = win7_104
+platform = windows
+ip = 192.168.122.104
+snapshot = Snapshot_ori_104
+tags = Windows7_64,w104,cuckoo1
+
+[win7_105]
+label = win7_105
+platform = windows
+ip = 192.168.122.105
+snapshot = Snapshot_ori_105
+tags = Windows7_64,w105,cuckoo1
+
+[win7_106]
+label = win7_106
+platform = windows
+ip = 192.168.122.106
+snapshot = Snapshot_ori_106
+tags = Windows7_64,w106,cuckoo1
+
+[win7_107]
+label = win7_107
+platform = windows
+ip = 192.168.122.107
+snapshot = Snapshot_ori_107
+tags = Windows7_64,w107,cuckoo1
+
+[win7_108]
+label = win7_108
+platform = windows
+ip = 192.168.122.108
+snapshot = Snapshot_ori_108
+tags = Windows7_64,w108,cuckoo1
+
+[win7_109]
+label = win7_109
+platform = windows
+ip = 192.168.122.109
+snapshot = Snapshot_ori_109
+tags = Windows7_64,w109,cuckoo1
+
+[win7_110]
+label = win7_110
+platform = windows
+ip = 192.168.122.110
+snapshot = Snapshot_ori_110
+tags = Windows7_64,w110,cuckoo1
+
+[win7_111]
+label = win7_111
+platform = windows
+ip = 192.168.122.111
+snapshot = Snapshot_ori_111
+tags = Windows7_64,w111,cuckoo1
+
+[win7_112]
+label = win7_112
+platform = windows
+ip = 192.168.122.112
+snapshot = Snapshot_ori_112
+tags = Windows7_64,w112,cuckoo1
+
+[win7_113]
+label = win7_113
+platform = windows
+ip = 192.168.122.113
+snapshot = Snapshot_ori_113
+tags = Windows7_64,w113,cuckoo1
+
+[win7_114]
+label = win7_114
+platform = windows
+ip = 192.168.122.114
+snapshot = Snapshot_ori_114
+tags = Windows7_64,w114,cuckoo1
+
+[win7_115]
+label = win7_115
+platform = windows
+ip = 192.168.122.115
+snapshot = Snapshot_ori_115
+tags = Windows7_64,w115,cuckoo1
+
+[win7_116]
+label = win7_116
+platform = windows
+ip = 192.168.122.116
+snapshot = Snapshot_ori_116
+tags = Windows7_64,w116,cuckoo1
+
+[win7_117]
+label = win7_117
+platform = windows
+ip = 192.168.122.117
+snapshot = Snapshot_ori_117
+tags = Windows7_64,w117,cuckoo1
+
+[win7_118]
+label = win7_118
+platform = windows
+ip = 192.168.122.118
+snapshot = Snapshot_ori_118
+tags = Windows7_64,w118,cuckoo1
+
+[win7_119]
+label = win7_119
+platform = windows
+ip = 192.168.122.119
+snapshot = Snapshot_ori_119
+tags = Windows7_64,w119,cuckoo1
+
+[win7_120]
+label = win7_120
+platform = windows
+ip = 192.168.122.120
+snapshot = Snapshot_ori_120
+tags = Windows7_64,w120,cuckoo1
+
+[win7_121]
+label = win7_121
+platform = windows
+ip = 192.168.122.121
+snapshot = Snapshot_ori_121
+tags = Windows7_64,w121,cuckoo1
+
+[win7_122]
+label = win7_122
+platform = windows
+ip = 192.168.122.122
+snapshot = Snapshot_ori_122
+tags = Windows7_64,w122,cuckoo1
+
+[win7_123]
+label = win7_123
+platform = windows
+ip = 192.168.122.123
+snapshot = Snapshot_ori_123
+tags = Windows7_64,w123,cuckoo1
+
+[win7_124]
+label = win7_124
+platform = windows
+ip = 192.168.122.124
+snapshot = Snapshot_ori_124
+tags = Windows7_64,w124,cuckoo1
+
+[win7_125]
+label = win7_125
+platform = windows
+ip = 192.168.122.125
+snapshot = Snapshot_ori_125
+tags = Windows7_64,w125,cuckoo1
+
+[win7_126]
+label = win7_126
+platform = windows
+ip = 192.168.122.126
+snapshot = Snapshot_ori_126
+tags = Windows7_64,w126,cuckoo1
+
+[win7_127]
+label = win7_127
+platform = windows
+ip = 192.168.122.127
+snapshot = Snapshot_ori_127
+tags = Windows7_64,w127,cuckoo1
+
+[win7_128]
+label = win7_128
+platform = windows
+ip = 192.168.122.128
+snapshot = Snapshot_ori_128
+tags = Windows7_64,w128,cuckoo1
+
+[win7_129]
+label = win7_129
+platform = windows
+ip = 192.168.122.129
+snapshot = Snapshot_ori_129
+tags = Windows7_64,w129,cuckoo1
+
+[win7_130]
+label = win7_130
+platform = windows
+ip = 192.168.122.130
+snapshot = Snapshot_ori_130
+tags = Windows7_64,w130,cuckoo1
+
+[win7_131]
+label = win7_131
+platform = windows
+ip = 192.168.122.131
+snapshot = Snapshot_ori_131
+tags = Windows7_64,w131,cuckoo1
+
+[win7_132]
+label = win7_132
+platform = windows
+ip = 192.168.122.132
+snapshot = Snapshot_ori_132
+tags = Windows7_64,w132,cuckoo1
+# =====================================
+
+[win7_001]
+label = win7_001
+platform = windows
+ip = 192.168.122.2
+snapshot = Snapshot_ori_001
+tags = vul01
+
+[win7_002]
+label = win7_002
+platform = windows
+ip = 192.168.122.3
+snapshot = Snapshot_ori_002
+tags = vul02
+
+[win7_003]
+label = win7_003
+platform = windows
+ip = 192.168.122.4
+snapshot = Snapshot_ori_003
+tags = vul03
+
+
+[win7_004]
+label = win7_004
+platform = windows
+ip = 192.168.122.5
+snapshot = Snapshot_ori_004
+tags = vul04
+
+[win7_005]
+label = win7_005
+platform = windows
+ip = 192.168.122.6
+snapshot = Snapshot_ori_005
+tags = vul05
+
+[win7_006]
+label = win7_006
+platform = windows
+ip = 192.168.122.7
+snapshot = Snapshot_ori_006
+tags = vul06
+
+[win7_007]
+label = win7_007
+platform = windows
+ip = 192.168.122.8
+snapshot = Snapshot_ori_007
+tags = vul07
+
+[winxp_008]
+label = winxp_008
+platform = windows
+ip = 192.168.122.9
+snapshot = Snapshot_ori_008
+tags = vul08,WindowsXp
+
+[winxp_009]
+label = winxp_009
+platform = windows
+ip = 192.168.122.10
+snapshot = Snapshot_ori_009
+tags = vul09,WindowsXp
+
+[winxp_010]
+label = winxp_010
+platform = windows
+ip = 192.168.122.11
+snapshot = Snapshot_ori_010
+tags = vul10,WindowsXp
+
+[winxp_011]
+label = winxp_011
+platform = windows
+ip = 192.168.122.12
+snapshot = Snapshot_ori_011
+tags = vul11,WindowsXp
+
+[winxp_012]
+label = winxp_012
+platform = windows
+ip = 192.168.122.13
+snapshot = Snapshot_ori_012
+tags = vul12,WindowsXp
+
+[win7_013]
+label = win7_013
+platform = windows
+ip = 192.168.122.14
+snapshot = Snapshot_ori_013
+tags = vul13,Windows7_32
+
+[win7_014]
+label = win7_014
+platform = windows
+ip = 192.168.122.15
+snapshot = Snapshot_ori_014
+tags = vul14,Windows7_32
+
+[win7_015]
+label = win7_015
+platform = windows
+ip = 192.168.122.16
+snapshot = Snapshot_ori_015
+tags = vul15,Windows7_32
+
+[win7_016]
+label = win7_016
+platform = windows
+ip = 192.168.122.17
+snapshot = Snapshot_ori_016
+tags = vul16,Windows7_32
+
+
+[win7_32_20]
+label = win7_32_20
+platform = windows
+ip = 192.168.122.20
+snapshot = Snapshot_ori_020
+tags = Windows7_32
+
+[win2003_21]
+label = win2003_21
+platform = windows
+ip = 192.168.122.21
+snapshot = Snapshot_ori_021
+tags = WindowsServer2003_64
+
+[ubuntu_22]
+label = ubuntu_22
+platform = linux
+ip = 192.168.122.22
+snapshot = Snapshot_ori_022
+tags = ubuntu
+
+[ubuntu_23]
+label = ubuntu_23
+platform = linux
+ip = 192.168.122.23
+snapshot = Snapshot_ori_023
+tags = ubuntu
+
+[centos32_24]
+label = centos32_24
+platform = linux
+ip = 192.168.122.24
+snapshot = Snapshot_ori_024
+tags = Centos7_32
+
+[centos64_25]
+label = centos64_25
+platform = linux
+ip = 192.168.122.25
+snapshot = Snapshot_ori_025
+tags = Centos7_64
+
+[debian_26]
+label = debian_26
+platform = linux
+ip = 192.168.122.26
+snapshot = Snapshot_ori_026
+tags = Debian7.3
+
+[kylin_27]
+label = kylin_27
+platform = linux
+ip = 192.168.122.27
+snapshot = Snapshot_ori_027
+tags = 中标麒麟
+
+[macos_28]
+label = macos_28
+platform = linux
+ip = 192.168.122.28
+snapshot = Snapshot_ori_028
+tags = MacOS10.12
+
+[winxp_29]
+label = winxp_29
+platform = windows
+ip = 192.168.122.29
+snapshot = Snapshot_ori_029
+tags = WindowsXp
+
+[winxp_30]
+label = winxp_30
+platform = windows
+ip = 192.168.122.30
+snapshot = Snapshot_ori_030
+tags = WindowsXp
+
+[win10_31]
+label = win10_31
+platform = windows
+ip = 192.168.122.31
+snapshot = Snapshot_ori_031
+tags = Windows10_64
+
