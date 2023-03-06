@@ -1,0 +1,3 @@
+# You can add whitelisted IPs here.
+52.109.124.116
+52.231.114.183
