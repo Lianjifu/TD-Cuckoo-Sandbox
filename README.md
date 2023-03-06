@@ -3,8 +3,8 @@
 
 - cuckoo_server
 
-cuckoo_server 目录是 cuckoo 环境包源码
+| cuckoo_server 目录是 cuckoo 环境包源码
 
 - cuckoo_app
 
-cuckoo_app 目录是 cuckoo 应用源码
+| cuckoo_app 目录是 cuckoo 应用源码
